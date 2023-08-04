@@ -251,9 +251,14 @@ video{
 
 /*sobre nostros*/
 .contenedor-nosotros{
-    display: flex;
-    justify-content: space-between;
     padding-top: 5rem;
+}
+
+@media(min-width: 768px){
+    .contenedor-nosotros{
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .texto-nosotros, .imagenes-nosotros{
@@ -261,12 +266,20 @@ video{
 }
 
 .texto-nosotros .bienvenida{
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--verde);
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    .texto-nosotros .bienvenida{
+        text-align: left;
+    }
 }
 
 .texto-nosotros h1{
     font-size: 5rem;
+    text-align: center;
 }
 
 .texto-nosotros p{
