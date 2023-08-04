@@ -133,6 +133,7 @@ img{
     font-weight: bold;
     display: inline-block;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /*encabezado*/
@@ -282,8 +283,21 @@ video{
     text-align: center;
 }
 
+@media(min-width: 768px){
+    .texto-nosotros h1{
+        text-align: left;
+    }
+}
+
 .texto-nosotros p{
     font-size: 2rem;
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    .texto-nosotros p{
+        text-align: left;
+    }
 }
 
 .imagenes-nosotros{
