@@ -355,11 +355,14 @@ video{
     }
 }
 
-.platillos{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+@media(min-width: 768px){
+    .platillos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
+
 
 .platillo{
     flex: 0 0 calc(33.3%  - 1rem);
@@ -392,4 +395,5 @@ video{
     border: none;
     background-color: var(--rojo);
     color: var(--blanco);
+    font-family: var(--parrafos);
 }
