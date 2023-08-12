@@ -144,6 +144,10 @@ img{
     font-family: var(--parrafos);
 }
 
+.btn-azul:hover{
+    background-color: var(--rojo);
+}
+
 /*encabezado*/
 .contenedor-navegacion{
     background-color: var(--oscuro);
@@ -395,5 +399,5 @@ video{
     border: none;
     background-color: var(--rojo);
     color: var(--blanco);
-    font-family: var(--parrafos);
+    height: 3.8rem;
 }
