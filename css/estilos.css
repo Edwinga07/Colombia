@@ -605,3 +605,11 @@ video{
     font-size: 1.8rem;
     border-radius: 0;
 }
+
+.footer{
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    padding: 2rem;
+    font-size: 2rem;
+}
