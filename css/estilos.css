@@ -570,6 +570,7 @@ video{
 
 .info{
     flex: 0 0 calc(25% - 1rem);
+    margin-bottom: 2rem
 }
 
 .info h3, .info p{
