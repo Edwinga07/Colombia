@@ -114,7 +114,7 @@ img{
 }
 
 .bordes{
-    border: 3px solid var(--azul);
+    border: 3px solid var(--amarillo);
 }
 
 @media(min-width: 768px){
@@ -124,7 +124,7 @@ img{
 }
 
 .bordes:hover{
-    color: var(--amarillo);
+    color: var(--azul);
     background-color: var(--blanco);
 }
 
